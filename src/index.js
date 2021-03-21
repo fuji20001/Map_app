@@ -4,7 +4,7 @@ import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
 import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
 
 mapboxgl.workerClass = MapboxWorker;
-mapboxgl.accessToken =  process.env.REACT_APP_MAPBOX_TOKEN;
+mapboxgl.accessToken =  "pk.eyJ1IjoiZnVqaTIwMDAxNjciLCJhIjoiY2ttNWtqdXRsMGY2eTJ4cTh3Z2xyMDZyYSJ9.EAexwEDWww36hH2V_NkIiQ";
 
 const Map = () => {
   const mapContainer = useRef();
